@@ -62,8 +62,8 @@ var Nav = React.createClass({
         "a",
         { href: "/" },
         React.createElement("img", {
-          src: "default_user_profile_pic.png",
-          alt: "",
+          src: "https://storage.123fakturere.no/public/icons/diamond.png",
+          alt: "diamond icon",
           className: "height-8 negative-mt-2",
         })
       )

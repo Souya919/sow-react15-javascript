@@ -55,7 +55,6 @@
 
 .text-white {
   color: white;
-  --tw-text-opacity: 1;
 }
 
 .text-center {
@@ -272,10 +271,6 @@ select .option-item {
   .mobile-dropdown-work {
     display: block;
   }
-
-  /* .dashnav{
-      display: none;
-    } */
 }
 
 @media only screen and (min-width: 591px) and (max-width: 767px) {
