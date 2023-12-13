@@ -113,16 +113,10 @@
   top: 0;
   left: 0;
   overflow: hidden;
-}
-
-#background-img {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  object-fit: cover;
-  object-position: center center;
+  background-image: url("https://storage.123fakturere.no/public/wallpapers/geiranger.jpg");
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
 }
 
 .back-terms {
