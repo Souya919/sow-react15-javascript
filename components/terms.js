@@ -75,10 +75,9 @@ var Terms = React.createClass({
         "div",
         { className: "text-center", style: { marginTop: "80px" } },
         React.createElement(
-          "h1",
+          "p",
           {
             className: "title text-white",
-            style: { fontSize: "24px", fontWeight: 700 },
           },
           "Terms"
         ),
@@ -88,14 +87,7 @@ var Terms = React.createClass({
           React.createElement(
             "button",
             {
-              className: "text-white",
-              style: {
-                padding: "12px 40px",
-                backgroundColor: "#089e1e",
-                borderRadius: "9999px",
-                fontSize: "18px",
-                fontWeight: 600,
-              },
+              className: "btn-text text-white",
               onClick: this.closePopup,
             },
             "Close and Go Back"
@@ -106,34 +98,18 @@ var Terms = React.createClass({
         "div",
         {
           className: "back-terms",
-          style: {
-            padding: "40px 40px",
-            textAlign: "center",
-            fontSize: "14px",
-            lineHeight: "1.75",
-            fontWeight: 300,
-            color: "#282b31",
-          },
         },
         createParagraphs()
       ),
       React.createElement(
         "div",
         {
-          className: "he-between",
           style: { textAlign: "center", padding: "24px 0" },
         },
         React.createElement(
           "button",
           {
-            className: "text-white",
-            style: {
-              padding: "12px 40px",
-              backgroundColor: "#089e1e",
-              borderRadius: "9999px",
-              fontSize: "18px",
-              fontWeight: 600,
-            },
+            className: "btn-text text-white",
             onClick: this.closePopup,
           },
           "Close and Go Back"

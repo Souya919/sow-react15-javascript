@@ -113,24 +113,17 @@ var Nav = React.createClass({
       { className: "md:mt-0 lang-drop" },
       React.createElement(
         "div",
-        { style: { fontWeight: 550, fontSize: "15px" } },
         React.createElement(
           "div",
           {
             id: "dropdownContainer",
-            className: "flex justify-between cursor-pointer gap-flag-con",
+            className:
+              "flex justify-between items-center cursor-pointer gap-flag-con",
           },
           React.createElement("p", { className: "flag-name" }, "English"),
           React.createElement("img", {
             src: "https://storage.123fakturere.no/public/flags/GB.png",
             className: "h-4 mt-[0.5px] rounded-[4px] icon-flag-nav",
-            style: {
-              objectFit: "cover",
-              objectPosition: "center center",
-              width: "26px",
-              height: "18px",
-              marginLeft: "1rem",
-            },
           })
         )
       )
