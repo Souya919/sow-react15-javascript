@@ -113,6 +113,7 @@ var Nav = React.createClass({
       { className: "md:mt-0 lang-drop" },
       React.createElement(
         "div",
+        { className: "flag-name" },
         React.createElement(
           "div",
           {

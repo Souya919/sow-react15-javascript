@@ -70,10 +70,10 @@ var Terms = React.createClass({
 
     return React.createElement(
       "section",
-      { style: { position: "relative" } },
+      { className: "relative" },
       React.createElement(
         "div",
-        { className: "text-center", style: { marginTop: "80px" } },
+        { className: "text-center" },
         React.createElement(
           "p",
           {
@@ -82,16 +82,12 @@ var Terms = React.createClass({
           "Terms"
         ),
         React.createElement(
-          "div",
-          { style: { marginTop: "20px" } },
-          React.createElement(
-            "button",
-            {
-              className: "btn-text text-white",
-              onClick: this.closePopup,
-            },
-            "Close and Go Back"
-          )
+          "button",
+          {
+            className: "btn-text text-white",
+            onClick: this.closePopup,
+          },
+          "Close and Go Back"
         )
       ),
       React.createElement(
@@ -104,7 +100,7 @@ var Terms = React.createClass({
       React.createElement(
         "div",
         {
-          style: { textAlign: "center", padding: "24px 0" },
+          className: "text-center",
         },
         React.createElement(
           "button",
